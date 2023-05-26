@@ -10,5 +10,6 @@ I wanted a version of Google's diff-match-patch library that could be easily ins
 8. I renamed the constructor to `DiffMatchPatch`, which seems more conventional for class names in JS than `diff_match_patch`. Eventually, I'd like to rewrite some of it using conventional class notation.
 9. I pared the `README.md` down to just JS-specific stuff.
 10. I renamed the "master" branch to "main".
+11. I converted all of the variables, functions, etc., to camel-case.
 
 — jrc03c

@@ -17,8 +17,8 @@ const text1 = "Help!"
 const text2 = "Hello!"
 
 const dmp = new DiffMatchPatch()
-const diff = dmp.diff_main(text1, text2)
-console.log(dmp.diff_levenshtein(diff))
+const diff = dmp.diffMain(text1, text2)
+console.log(dmp.diffLevenshtein(diff))
 ```
 
 # Testing

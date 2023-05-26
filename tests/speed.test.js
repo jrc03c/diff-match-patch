@@ -298,7 +298,7 @@ Four dailies, associated weeklies and [[pennysaver]]s in the state of [[Michigan
 
 * Heritage Newspapers {{WS|heritage.com}}
 ** ''Belleville View'' {{WS|bellevilleview.com}}
-** ''Ile Camera'' {{WS|thenewsherald.com/ile_camera}}
+** ''Ile Camera'' {{WS|thenewsherald.com/ileCamera}}
 ** ''Monroe Guardian''  {{WS|monreguardian.com}}
 ** ''Ypsilanti Courier'' {{WS|ypsilanticourier.com}}
 ** ''News-Herald'' {{WS|thenewsherald.com}}
@@ -402,11 +402,11 @@ Seven dailies and associated weeklies and magazines in [[Pennsylvania]] and [[Ne
 ** ''Town Talk'' {{WS|towntalknews.com}} of [[Ridley, Pennsylvania]]
 
 * Berks-Mont Newspapers {{WS|berksmontnews.com}}
-** ''The Boyertown Area Times'' {{WS|berksmontnews.com/boyertown_area_times}} of [[Boyertown, Pennsylvania]]
-** ''The Kutztown Area Patriot'' {{WS|berksmontnews.com/kutztown_area_patriot}} of [[Kutztown, Pennsylvania]]
-** ''The Hamburg Area Item'' {{WS|berksmontnews.com/hamburg_area_item}} of [[Hamburg, Pennsylvania]]
-** ''The Southern Berks News'' {{WS|berksmontnews.com/southern_berks_news}} of [[Exeter Township, Berks County, Pennsylvania]]
-** ''Community Connection'' {{WS|berksmontnews.com/community_connection}} of [[Boyertown, Pennsylvania]]
+** ''The Boyertown Area Times'' {{WS|berksmontnews.com/boyertownAreaTimes}} of [[Boyertown, Pennsylvania]]
+** ''The Kutztown Area Patriot'' {{WS|berksmontnews.com/kutztownAreaPatriot}} of [[Kutztown, Pennsylvania]]
+** ''The Hamburg Area Item'' {{WS|berksmontnews.com/hamburgAreaItem}} of [[Hamburg, Pennsylvania]]
+** ''The Southern Berks News'' {{WS|berksmontnews.com/southernBerksNews}} of [[Exeter Township, Berks County, Pennsylvania]]
+** ''Community Connection'' {{WS|berksmontnews.com/communityConnection}} of [[Boyertown, Pennsylvania]]
 
 * Magazines
 ** ''Bucks Co. Town &amp; Country Living'' {{WS|buckscountymagazine.com}}
@@ -421,8 +421,8 @@ Seven dailies and associated weeklies and magazines in [[Pennsylvania]] and [[Ne
 [[Category:Journal Register publications|*]]`
 
 const dmp = new DiffMatchPatch()
-dmp.Diff_Timeout = 0
-const ms_start = new Date().getTime()
-dmp.diff_main(text1, text2, false)
-const ms_end = new Date().getTime()
-console.log("Time: " + (ms_end - ms_start) / 1000 + "s")
+dmp.diffTimeout = 0
+const msStart = new Date().getTime()
+dmp.diffMain(text1, text2, false)
+const msEnd = new Date().getTime()
+console.log("Time: " + (msEnd - msStart) / 1000 + "s")
