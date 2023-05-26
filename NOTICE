@@ -1,0 +1,13 @@
+I wanted a version of Google's diff-match-patch library that could be easily installed with NPM for use in Node / JS projects. To that end, I made these changes:
+
+1. I forked their library and deleted all of the non-JS stuff.
+2. I modified the way values were exported from the main JS file (`diff_match_patch.js`).
+3. I added `eslint`, `prettier`, and `esbuild` to help with linting, formatting, and bundling.
+4. I updated the `.gitignore` file to ignore only JS-specific items.
+5. I added some spacing between lines and comments that were (in my opinion) a little too cramped.
+6. I converted all `var` declarations to `let` or `const`.
+7. I modified the tests to run from the command line rather than from within a browser.
+8. I renamed the constructor to `DiffMatchPatch`, which seems more conventional for class names in JS than `diff_match_patch`. Eventually, I'd like to rewrite some of it using conventional class notation.
+9. I pared the `README.md` down to just JS-specific stuff.
+
+— jrc03c
